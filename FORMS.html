@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMS</title>
+    <style>
+body{
+    background-color: plum;
+    font-family: cursive;
+}
+.input-box{
+    padding: 8px;
+    border-radius: 5px;}
+    .input-box input{
+        background-color: deeppink;
+    }
+    #input-btn{
+        padding: 6px;
+        border-radius: 10px;}
+    #input-btn input{
+        background-color: purple;
+        color: sienna;}
+    h2{ text-align: center;
+        background-color: aquamarine;
+        color: black;
+        border-radius: 10px;
+        width: 50%}
+   .input-section{
+        padding: 6px;
+        border-radius: 10px;}
+   .input-section input{text-align: center;
+       background-color: cornflowerblue;
+       color: firebrick;
+       border-radius: 15px;
+       padding: 5px}
+   .input-data{color: darkblue;
+       background-color: cornflowerblue;
+       font-family: SansSerif}
+}
+    </style>
+</head>
+<body>
+<h2>DATA INPUT FORM</h2>
+<form actions="">
+    <div class="input-box">
+    <label for="">Name</label>
+    <input type="text"> <br><br>
+    </div>
+    <div class="input-box">
+    <label for="">Mobile No</label>
+    <input type="text"><br><br>
+    </div>
+    <div class="input-section">
+    <label for="">Gender</label>
+    Male:<input type="radio" name="Gender" value="Male">
+    Female:<input type="radio" name="Gender" checked value="Female"><br><br>
+    <label for="">Hobbies</label>
+    Dancing:<input type="checkbox" name="Hobbies" value="Dancing">
+    Singing:<input type="checkbox" name="Hobbies" value="Singing">
+    Soccer:<input type="checkbox"  name="Hobbies" value="Soccer" checked><br><br>
+    <label for="">County</label>
+    <select name="dropdown" id="">
+        <option value="">Nairobi</option>
+        <option value="">Mombasa</option>
+        <option value="">Nakuru</option>
+        <option value="">Homa-bay</option>
+        <option value="">Migori</option>
+        <option value="">Siaya</option>
+        <option value="">Narok</option>
+        <option value="">Bomet</option>
+        <option value="">Kisii</option>
+    </select><br><br>
+    </div>
+    <h2>DATA ENTRY COMPLETE</h2>
+    <div id="input-btn">
+    <input type="SUBMIT" value="SUBMIT"><br><br><br>
+    <input type="RESET" value="RESET">
+    </div>
+</form>
+<div class="input-data">
+    <h3>THEEEEE END</h3>
+</div>
+</body>
+</html>
